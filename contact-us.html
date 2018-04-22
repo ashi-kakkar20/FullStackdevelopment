@@ -1,0 +1,136 @@
+<!-- This is Contact-Us page of the Student profile website-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact-Us</title>
+    <!--Styling of Contact us page-->
+    <style type="text/css">
+        nav ul li {
+            padding: 10px;
+            color: black;
+            text-align: left;
+            list-style: none
+        }
+
+        figure {
+            size: auto;
+        }
+
+        figcaption {
+
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+            font-weight: bold;
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+
+
+        }
+
+        body {
+            background-repeat: no-repeat;
+            background-size: 1370px;
+        }
+
+        form {
+            width: 600px;
+            margin: 0 auto;
+
+        }
+
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="images/contactusbkg.jpg">
+    <figure>
+        <img src="images/contactus.jpg" alt="Contactus Page" width="1265">
+
+    </figure>
+
+    <figcaption>Contact Us</figcaption>
+    <article>
+        We are here to answer your questions. Reach out to us and we will respond as soon as we can. Even if there is something you
+        have always wanted to experience and cant find it on the website, let us know and we promise that we will do our
+        best to find it for you and send you there.
+    </article>
+    <nav>
+        <ul>
+
+            <li>
+                <!-- Redirection to qualification page -->
+                <a href="education.html">Qualification </a>
+            </li>
+            <li>
+                <!-- Back to main student profile page-->
+                <a href="Student-Profile.html">Go Back </a>
+            </li>
+        </ul>
+    </nav>
+
+    <form width="1265">
+        <fieldset>
+
+            <div>
+                <label for="firstname"> First Name : </label>
+                <input type="text" name="firstname" required>
+            </div>
+            <br/>
+
+            <div>
+                <label for="lastname"> Last Name : </label>
+                <input type="text" name=" lastname" required>
+            </div>
+
+            <br/>
+            <div>
+                <input type="radio" name=" gender"> Male
+                <input type="radio" name=" gender"> Female
+
+            </div>
+            <br/>
+
+            <div>
+                <span style="width:2000px; margin:0 auto; position:relative;">
+
+
+                    <label for="Message"> Message: </label>
+                    <textarea name="Message" cols="50" rows="10"> 
+
+                     </textarea>
+                </span>
+            </div>
+            <br/>
+            <div>
+
+                <label for="email"> Email: </label>
+                <input type="email" name="email">
+
+            </div>
+            <br/>
+
+            <input type="submit" value="Submit">
+            <input type="submit" value="Cancel">
+
+        </fieldset>
+    </form>
+    <br/>
+    <br/>
+    <footer>
+        Copyright &COPY; DLK International Pvt. Ltd. 2018. All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
