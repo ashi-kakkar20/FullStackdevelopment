@@ -4,3 +4,4 @@ Inside the website there are three pages as below :
     • Contact Us Page
     • Qualification Page
 
+The main page of this website starts with Student-Profile.html
